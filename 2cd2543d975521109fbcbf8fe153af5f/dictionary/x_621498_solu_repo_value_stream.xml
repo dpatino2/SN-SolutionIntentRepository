@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="63f358bd979521109fbcbf8fe153aff8" label="Operational Value Stream" max_length="40" name="x_621498_solu_repo_value_stream" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+    </element>
+</database>

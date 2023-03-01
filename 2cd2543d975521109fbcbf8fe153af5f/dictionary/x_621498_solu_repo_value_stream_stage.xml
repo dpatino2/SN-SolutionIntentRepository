@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9dd458fd979521109fbcbf8fe153afff" label="Operational Value Stream Stage" max_length="40" name="x_621498_solu_repo_value_stream_stage" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Parent OVS" mandatory="true" max_length="32" name="parent_ovs" reference="x_621498_solu_repo_value_stream" type="reference"/>
+        <element label="Parent Stage" max_length="32" name="parent_stage" reference="x_621498_solu_repo_value_stream_stage" type="reference"/>
+        <index name="index">
+            <element name="parent_ovs"/>
+        </index>
+        <index name="index2">
+            <element name="parent_stage"/>
+        </index>
+    </element>
+</database>

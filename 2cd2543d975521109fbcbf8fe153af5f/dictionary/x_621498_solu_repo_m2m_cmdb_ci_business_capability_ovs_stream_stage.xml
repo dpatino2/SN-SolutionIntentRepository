@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a2e9147597d521109fbcbf8fe153afbb" label="OVS Stage Capability" max_length="40" name="x_621498_solu_repo_m2m_cmdb_ci_business_capability_ovs_stream_stage" type="collection">
+        <element attributes="encode_utf8=false" label="Capability" mandatory="true" max_length="32" name="cmdb_ci_business_capability" reference="cmdb_ci_business_capability" type="reference"/>
+        <element attributes="encode_utf8=false" label="OVS Stage" mandatory="true" max_length="32" name="x_621498_solu_repo_value_stream_stage" reference="x_621498_solu_repo_value_stream_stage" type="reference"/>
+        <index name="index">
+            <element name="cmdb_ci_business_capability"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ff6947197d521109fbcbf8fe153af37" label="Solution Context" max_length="40" name="x_621498_solu_repo_solution_context" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Operational Value Stream" mandatory="true" max_length="32" name="operational_value_stream" reference="x_621498_solu_repo_value_stream" type="reference"/>
+        <element label="Target Architecture" max_length="40" name="target_architecture" type="boolean"/>
+        <index name="index">
+            <element name="operational_value_stream"/>
+        </index>
+    </element>
+</database>

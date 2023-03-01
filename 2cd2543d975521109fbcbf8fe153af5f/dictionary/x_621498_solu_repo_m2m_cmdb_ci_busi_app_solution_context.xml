@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="eb8854f197d521109fbcbf8fe153afdf" label="Context Application" max_length="40" name="x_621498_solu_repo_m2m_cmdb_ci_busi_app_solution_context" type="collection">
+        <element attributes="encode_utf8=false" label="Business Applications" mandatory="true" max_length="32" name="cmdb_ci_business_app" reference="cmdb_ci_business_app" type="reference"/>
+        <element attributes="encode_utf8=false" label="Solution Contexts" mandatory="true" max_length="32" name="x_621498_solu_repo_solution_context" reference="x_621498_solu_repo_solution_context" type="reference"/>
+        <index name="index">
+            <element name="cmdb_ci_business_app"/>
+        </index>
+    </element>
+</database>
